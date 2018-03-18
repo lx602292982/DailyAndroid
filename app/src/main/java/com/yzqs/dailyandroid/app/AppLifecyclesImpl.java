@@ -22,6 +22,7 @@ import com.jess.arms.base.delegate.AppLifecycles;
 import com.jess.arms.utils.ArmsUtils;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
+import com.yzqs.dailyandroid.BuildConfig;
 
 import butterknife.ButterKnife;
 import timber.log.Timber;

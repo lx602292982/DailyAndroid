@@ -15,9 +15,10 @@
  */
 package com.yzqs.dailyandroid.mvp.model.entity;
 
+import com.yzqs.dailyandroid.mvp.model.api.Api;
+
 import java.io.Serializable;
 
-import me.jessyan.mvparms.demo.mvp.model.api.Api;
 
 /**
  * ================================================

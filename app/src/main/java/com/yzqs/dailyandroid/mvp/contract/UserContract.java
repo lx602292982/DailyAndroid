@@ -24,6 +24,8 @@ import com.yzqs.dailyandroid.mvp.model.entity.User;
 
 import java.util.List;
 
+import io.reactivex.Observable;
+
 /**
  * ================================================
  * 展示 Contract 的用法
@@ -45,6 +47,6 @@ public interface UserContract {
     }
     //Model层定义接口,外部只需关心Model返回的数据,无需关心内部细节,如是否使用缓存
     interface Model extends IModel {
-        io.reactivex.Observable<List<User>> getUsers(int lastIdQueried, boolean update);
+        Observable<List<User>> getUsers(int lastIdQueried, boolean update);
     }
 }

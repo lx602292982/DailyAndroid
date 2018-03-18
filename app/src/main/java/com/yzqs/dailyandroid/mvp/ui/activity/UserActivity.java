@@ -30,6 +30,7 @@ import com.jess.arms.utils.ArmsUtils;
 import com.paginate.Paginate;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.yzqs.dailyandroid.R;
+import com.yzqs.dailyandroid.di.component.DaggerUserComponent;
 import com.yzqs.dailyandroid.di.module.UserModule;
 import com.yzqs.dailyandroid.mvp.contract.UserContract;
 import com.yzqs.dailyandroid.mvp.presenter.UserPresenter;
@@ -56,6 +57,7 @@ public class UserActivity extends BaseActivity<UserPresenter> implements UserCon
     RecyclerView mRecyclerView;
     @BindView(R.id.swipeRefreshLayout)
     SwipeRefreshLayout mSwipeRefreshLayout;
+
     @Inject
     RxPermissions mRxPermissions;
     @Inject

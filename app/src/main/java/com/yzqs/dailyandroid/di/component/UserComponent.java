@@ -17,10 +17,10 @@ package com.yzqs.dailyandroid.di.component;
 
 import com.jess.arms.di.component.AppComponent;
 import com.jess.arms.di.scope.ActivityScope;
+import com.yzqs.dailyandroid.di.module.UserModule;
+import com.yzqs.dailyandroid.mvp.ui.activity.UserActivity;
 
 import dagger.Component;
-import me.jessyan.mvparms.demo.di.module.UserModule;
-import me.jessyan.mvparms.demo.mvp.ui.activity.UserActivity;
 
 /**
  * ================================================

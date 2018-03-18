@@ -12,22 +12,6 @@
     app:layout_collapseMode="pin"
     >
 
-    <com.zhy.autolayout.AutoRelativeLayout
-        android:id="@+id/toolbar_back"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:gravity="left"
-        >
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30px"
-            android:layout_marginRight="30px"
-            android:layout_centerVertical="true"
-            android:src="@mipmap/ic_arrow_back_white_24dp"/>
-
-    </com.zhy.autolayout.AutoRelativeLayout>
 
     <TextView
         android:id="@+id/toolbar_title"

@@ -20,12 +20,12 @@ import android.text.TextUtils;
 
 import com.google.gson.reflect.TypeToken;
 import com.jess.arms.http.GlobalHttpHandler;
-import com.jess.arms.http.log.RequestInterceptor;
+import com.jess.arms.http.RequestInterceptor;
 import com.jess.arms.utils.ArmsUtils;
+import com.yzqs.dailyandroid.mvp.model.entity.User;
 
 import java.util.List;
 
-import me.jessyan.mvparms.demo.mvp.model.entity.User;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;

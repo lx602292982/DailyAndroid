@@ -52,6 +52,7 @@ import me.jessyan.rxerrorhandler.handler.RetryWithDelay;
  */
 @ActivityScope
 public class UserPresenter extends BasePresenter<UserContract.Model, UserContract.View> {
+
     @Inject
     RxErrorHandler mErrorHandler;
     @Inject
